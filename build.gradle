@@ -8,3 +8,18 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    compose_version = '1.0.5'
+    kotlin_version = '1.5.31'
+    accompanistVersion = "0.18.0"
+    hiltVersion = "2.38.1"
+    hiltCompilerVersion = "1.0.0"
+    hiltComposeVersion = "1.0.0-alpha03"
+    retrofitVersion = "2.9.0"
+    gsonVersion = "2.8.9"
+    datastoreVersion = "1.0.0"
+    pagingVersion = "3.1.0-rc01"
+    pagingComposeVersion = "1.0.0-alpha14"
+    constraintComposeVersion = "1.0.0-rc01"
+}
